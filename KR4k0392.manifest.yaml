@@ -1,0 +1,37 @@
+canonical_identifier: bkk:krp/KR4k0392/v1
+canonical_location: https://kanripo.org/bkk/KR4k0392/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 會稽典錄
+  identifiers:
+    krp: KR4k0392
+  tags:
+    kr-categories: KR4k
+    tls-dates: dat04500
+  source:
+    repository: tls-texts
+    path: data/tls/KR4k0392.xml
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 1, filename: KR4k0392_001.yaml, hash: 'sha256:cf3470a084ad250365ad241664d9df290988007ff4e3ae91362bb42233215485'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR4k0392_001.markers.yaml, hash: 'sha256:d1ec2c78c66faa5c3400086d1dbfae809a546d607f6dad83214a7eb3f2b98698'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR4k0392_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 179
+  label: 會稽典錄
+  type: section
+  level: 1
+hash: sha256:f75dc5d8a1a590acfaab16f6273fa10d0c72935d064d883eea727c30f19dd90c
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
